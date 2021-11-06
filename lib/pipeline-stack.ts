@@ -26,7 +26,7 @@ export class PipelineStack extends cdk.Stack {
       stageName: "Source",
       actions: [
         new GitHubSourceAction({
-          owner: "oldarbbit736",
+          owner: "OldRabbit736",
           repo: "aws-pipeline",
           branch: "main",
           actionName: "Pipeline_Source",
