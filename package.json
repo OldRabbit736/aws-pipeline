@@ -18,11 +18,13 @@
     "ts-jest": "^26.2.0",
     "aws-cdk": "1.130.0",
     "ts-node": "^9.0.0",
-    "typescript": "~3.9.7"
-  },
-  "dependencies": {
+    "typescript": "~3.9.7",
     "@aws-cdk/core": "1.130.0",
     "@aws-cdk/aws-budgets": "1.130.0",
+    "@aws-cdk/aws-codepipeline": "1.130.0",
+    "@aws-cdk/aws-codepipeline-actions": "1.130.0",
+    "@aws-cdk/aws-codebuild": "1.130.0",
     "source-map-support": "^0.5.16"
-  }
+  },
+  "dependencies": {}
 }
