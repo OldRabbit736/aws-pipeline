@@ -1020,6 +1020,22 @@ Object {
       },
       "Type": "AWS::IAM::Role",
     },
+    "pipelineNotificationsTopic20D174FE": Object {
+      "Properties": Object {
+        "TopicName": "pipelineNotifications",
+      },
+      "Type": "AWS::SNS::Topic",
+    },
+    "pipelineNotificationsTopicsylvan0212gmailcom269BBE77": Object {
+      "Properties": Object {
+        "Endpoint": "sylvan0212@gmail.com",
+        "Protocol": "email",
+        "TopicArn": Object {
+          "Ref": "pipelineNotificationsTopic20D174FE",
+        },
+      },
+      "Type": "AWS::SNS::Subscription",
+    },
   },
 }
 `;
